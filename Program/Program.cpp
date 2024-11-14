@@ -4,43 +4,49 @@ using namespace std;
 
 template <typename T>
 
-class SingleLinkedList
+class DoubleLinkedList
 {
-private :
+private:
 	struct Node
 	{
 		T data;
+		Node* previous;
 		Node* next;
 	};
 
 	int size;
+
 	Node* head;
+	Node* tail;
 
 public:
-	SingleLinkedList()
+	DoubleLinkedList()
 	{
 		size = 0;
 		head = nullptr;
+		tail = nullptr;
 	}
-
 	void PushFront(T data)
 	{
+		Node* newNode = new Node;
+
+		newNode->data = data;
+		newNode->previous = nullptr;
+		newNode->next = nullptr;
+
 		if (head == nullptr)
 		{
-			head = new Node;
-
-			head->data = data;
-			head->next = nullptr;
+			head = newNode;
+			tail = newNode;
 		}
 		else
 		{
-			Node* newNode = new Node;
-
-			newNode->data = data;
+			head->previous = newNode;
 			newNode->next = head;
 
 			head = newNode;
 		}
+
 		size++;
 	}
 	void PopFront()
@@ -53,49 +59,21 @@ public:
 		{
 			Node* deleteNode = head;
 
-			head = deleteNode->next;
+			if (head == tail)
+			{
+				head = nullptr;
+				tail = nullptr;
+			}
+			else
+			{
+				deleteNode->next->previous = nullptr;
+
+				head = head->next;
+			}
 
 			delete deleteNode;
 
 			size--;
-		}
-	}
-	void PushBack(T data)
-	{
-		if (head == nullptr)
-		{
-			head = new Node;
-
-			head->data = data;
-			head->next = nullptr;
-		}
-		else
-		{
-			Node* currentNode = head;
-
-			while (currentNode->next != nullptr)
-			{
-				currentNode = currentNode->next;
-			}
-
-			Node* newNode = new Node;
-			
-			currentNode->next = newNode;
-
-			newNode->data = data;
-			newNode->next = nullptr;
-		}
-
-		size++;
-	}
-	void Show()
-	{
-		Node* currentNode = head;
-
-		while (currentNode != nullptr)
-		{
-			cout << currentNode->data << " ";
-			currentNode = currentNode->next;
 		}
 
 	}
@@ -103,18 +81,16 @@ public:
 
 int main()
 {
-	SingleLinkedList<int> singleLinkedList;
+	DoubleLinkedList<int> doubleLinkedList;
 
-	singleLinkedList.PushFront(10);
-	singleLinkedList.PushFront(20);
+	doubleLinkedList.PushFront(10);
+	doubleLinkedList.PushFront(20);
 
-	singleLinkedList.PushBack(5);
-	singleLinkedList.PushBack(0);
+	doubleLinkedList.PopFront();
+	doubleLinkedList.PopFront();
 
-	singleLinkedList.Show();
-	
-	singleLinkedList.PopFront();
-	singleLinkedList.PopFront();
-	
+	doubleLinkedList.PopFront();
+
+
 	return 0;
 }

@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{B0E8A8C7-EECD-4270-90AB-340099AE2DC5}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{63987718-4E0A-417B-A99F-6F36F07BDB2C}|..\\Class4th (Stack)\\Class4th (Stack).vcxproj|C:\\Users\\user\\Desktop\\DataStruct\\Class4th (Stack)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B3D8BEB7-C4A3-4BEA-AC2B-8EBFA49BBC91}|..\\Class3th (Circle Linked List)\\Class3th (Circle Linked List).vcxproj|C:\\Users\\user\\Desktop\\DataStruct\\Class3th (Circle Linked List)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -23,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DataStruct\\Class4th (Stack)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class4th (Stack)\\Source.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\DataStruct\\Class4th (Stack)\\Source.cpp",
+              "RelativeToolTip": "..\\Class4th (Stack)\\Source.cpp",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-20T12:07:43.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\DataStruct\\Class3th (Circle Linked List)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class3th (Circle Linked List)\\Source.cpp",
@@ -35,12 +51,11 @@
               "RelativeToolTip": "..\\Class3th (Circle Linked List)\\Source.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-19T12:21:42.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T12:21:42.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\DataStruct\\Class2th (Double Linked List)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class2th (Double Linked List)\\Source.cpp",
@@ -52,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\DataStruct\\Class1th (Single Lingked List)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class1th (Single Lingked List)\\Source.cpp",
@@ -60,8 +75,7 @@
               "RelativeToolTip": "..\\Class1th (Single Lingked List)\\Source.cpp",
               "ViewState": "AgIAADQAAAAAAAAAAAAAAIYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-14T11:23:50.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T11:23:50.589Z"
             },
             {
               "$type": "Document",
@@ -71,7 +85,7 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\user\\Desktop\\DataStruct\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-12T11:02:54.336Z",
               "EditorCaption": ""

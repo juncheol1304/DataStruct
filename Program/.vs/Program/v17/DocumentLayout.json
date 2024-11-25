@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{B0E8A8C7-EECD-4270-90AB-340099AE2DC5}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{913550E6-CA64-4B17-88DC-BADB8AD00EB1}|..\\Class7th (Vector)\\Class7th (Vector).vcxproj|C:\\Users\\user\\Desktop\\DataStruct\\Class7th (Vector)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D2E4D39-28AC-4D8C-B22C-3E9D5C84FDFF}|..\\Class6th (Circle Queue)\\Class6th (Circle Queue).vcxproj|C:\\Users\\user\\Desktop\\DataStruct\\Class6th (Circle Queue)\\Class6th (Circle Queue).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -32,36 +35,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class6th (Circle Queue).cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DataStruct\\Class6th (Circle Queue)\\Class6th (Circle Queue).cpp",
-              "RelativeDocumentMoniker": "..\\Class6th (Circle Queue)\\Class6th (Circle Queue).cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\DataStruct\\Class6th (Circle Queue)\\Class6th (Circle Queue).cpp",
-              "RelativeToolTip": "..\\Class6th (Circle Queue)\\Class6th (Circle Queue).cpp",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAAGMAAAAUAAAAAAAAAA==",
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DataStruct\\Class7th (Vector)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class7th (Vector)\\Source.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\DataStruct\\Class7th (Vector)\\Source.cpp",
+              "RelativeToolTip": "..\\Class7th (Vector)\\Source.cpp",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-22T11:04:29.908Z",
+              "WhenOpened": "2024-11-25T11:10:18.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DataStruct\\Class5th (Linear Queue)\\Source.cpp",
-              "RelativeDocumentMoniker": "..\\Class5th (Linear Queue)\\Source.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\DataStruct\\Class5th (Linear Queue)\\Source.cpp",
-              "RelativeToolTip": "..\\Class5th (Linear Queue)\\Source.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADgAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-21T11:30:14.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\DataStruct\\Class4th (Stack)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class4th (Stack)\\Source.cpp",
@@ -73,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\DataStruct\\Class3th (Circle Linked List)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class3th (Circle Linked List)\\Source.cpp",
@@ -85,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\DataStruct\\Class2th (Double Linked List)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class2th (Double Linked List)\\Source.cpp",
@@ -97,7 +88,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Program.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DataStruct\\Program\\Program.cpp",
+              "RelativeDocumentMoniker": "Program.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\DataStruct\\Program\\Program.cpp",
+              "RelativeToolTip": "Program.cpp",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-12T11:02:54.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DataStruct\\Class5th (Linear Queue)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class5th (Linear Queue)\\Source.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\DataStruct\\Class5th (Linear Queue)\\Source.cpp",
+              "RelativeToolTip": "..\\Class5th (Linear Queue)\\Source.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T11:30:14.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class6th (Circle Queue).cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DataStruct\\Class6th (Circle Queue)\\Class6th (Circle Queue).cpp",
+              "RelativeDocumentMoniker": "..\\Class6th (Circle Queue)\\Class6th (Circle Queue).cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\DataStruct\\Class6th (Circle Queue)\\Class6th (Circle Queue).cpp",
+              "RelativeToolTip": "..\\Class6th (Circle Queue)\\Class6th (Circle Queue).cpp",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAGMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-22T11:04:29.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\DataStruct\\Class1th (Single Lingked List)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class1th (Single Lingked List)\\Source.cpp",
@@ -106,19 +134,6 @@
               "ViewState": "AgIAADQAAAAAAAAAAAAAAIYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-14T11:23:50.589Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DataStruct\\Program\\Program.cpp",
-              "RelativeDocumentMoniker": "Program.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\DataStruct\\Program\\Program.cpp",
-              "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-12T11:02:54.336Z",
-              "EditorCaption": ""
             }
           ]
         }

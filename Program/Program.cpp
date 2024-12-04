@@ -4,39 +4,66 @@ using namespace std;
 
 #define SIZE 10
 
-template<typename T>
-
-class AdjacencyMatrix
+template <typename T>
+class AdjacencyList
 {
 private:
-	int size;				// 정점의 개수
-	T vertex[SIZE];			// 정점의 집합
-	int matrix[SIZE][SIZE];	// 인접 행렬
+    struct Node
+    {
+        T data;
+        Node* next;
 
+        Node(T data, Node* link = nullptr)
+        {
+            this->data = data;
+            next = link;
+        }
+    };
+
+    int size; // 정점의 개수
+    T vertex[SIZE]; // 정점의 집합
+    Node* list[SIZE]; // 인접 리스트
 public:
-	AdjacencyMatrix()
-	{
-		size = 0;
 
-		for (int i = 0; i < SIZE; i++)
-		{
-			vertex[i] = NULL;
+    AdjacencyList()
+    {
+        size = 0;
 
-			for (int j = 0; j < SIZE; i++)
-			{
-				matrix[i][j] = NILL;
-			}
-		}
-	}
+        for (int i = 0; i < SIZE; i++)
+        {
+            list[i] = NULL;
+            vertex[i] = NULL;
+        }
+    }
+
+    void Insert(T data)
+    {
+        if (size >= SIZE)
+        {
+            cout << "Adjacency Matrix Overflow" << endl;
+        }
+        else
+        {
+            vertex[size++] = data;
+        }
+    }
+    ~AdjacencyList()
+    {
+        for (int i = 0; i < SIZE; i++)
+        {
+            if (list[i] != nullptr)
+            {
+                delete[] list[i];
+            }
+        }
+    }
 };
 
 int main()
 {
-	//   A B C D
-	// A 0 1 0 1
-	// B 0 0 1 1
-	// C 0 0 0 1
-	// D 0 0 0 0
+    AdjacencyList<char> adjacencyList;
 
-	return 0;
+
+
+    return 0;
 }

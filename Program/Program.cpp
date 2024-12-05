@@ -2,68 +2,103 @@
 
 using namespace std;
 
-#define SIZE 10
+template<typename T>
 
-template <typename T>
-class AdjacencyList
+class BinarySearchTree
 {
 private:
-    struct Node
-    {
-        T data;
-        Node* next;
+	struct Node
+	{
+		T data;
+		
+		Node* left;
+		Node* right;
+	};
 
-        Node(T data, Node* link = nullptr)
-        {
-            this->data = data;
-            next = link;
-        }
-    };
+	Node* root;
 
-    int size; // 정점의 개수
-    T vertex[SIZE]; // 정점의 집합
-    Node* list[SIZE]; // 인접 리스트
 public:
+	BinarySearchTree()
+	{
+		root = nullptr;
+	}
 
-    AdjacencyList()
-    {
-        size = 0;
+	Node* RootNode()
+	{
+		return root;
+	}
 
-        for (int i = 0; i < SIZE; i++)
-        {
-            list[i] = NULL;
-            vertex[i] = NULL;
-        }
-    }
+	Node* CreateNode(T data)
+	{
+		Node* newNode = new Node();
 
-    void Insert(T data)
-    {
-        if (size >= SIZE)
-        {
-            cout << "Adjacency Matrix Overflow" << endl;
-        }
-        else
-        {
-            vertex[size++] = data;
-        }
-    }
-    ~AdjacencyList()
-    {
-        for (int i = 0; i < SIZE; i++)
-        {
-            if (list[i] != nullptr)
-            {
-                delete[] list[i];
-            }
-        }
-    }
+		newNode->data = data;
+
+		newNode->left = nullptr;
+		
+		newNode->right = nullptr;
+
+		return newNode;
+	}
+
+	void Insert(T data)
+	{
+		if (root == nullptr)
+		{
+			root = CreateNode(data);
+		}
+		else
+		{
+			Node* currentNode = root;
+
+			while (currentNode != nullptr)
+			{
+				if (currentNode->data == data)
+				{
+					return;
+				}
+				else if(currentNode->data > data)
+				{
+					if (currentNode->left == nullptr)
+					{
+						currentNode->left = CreateNode(data);
+						break;
+					}
+					else
+					{
+						currentNode = currentNode->left;
+					}
+				}
+				else
+				{
+					if (currentNode->right == nullptr)
+					{
+						currentNode->right = currentNode(data);
+
+						break;
+					}
+					else
+					{
+						currentNode = currentNode->right;
+					}
+				}
+
+			}
+		}
+	}
+
+	void Inorder()
+	{
+
+	}
+
 };
 
 int main()
 {
-    AdjacencyList<char> adjacencyList;
+	BinarySearchTree<int> binarySearchTree;
 
+	
 
-
-    return 0;
+	return 0;
 }
